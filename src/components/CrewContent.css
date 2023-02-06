@@ -1,0 +1,99 @@
+@media only screen and (min-width: 1340px) {
+
+    .crew_container {
+        background-image: url("../../public/crew/background-crew-desktop.jpg");
+        background-size: 100% 100vh;
+        background-attachment: fixed;
+        min-height: 100vh;
+        height: 72rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .crewcontent_page_left__title {
+        position: absolute;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: white;
+        margin-top: 17rem;
+        margin-left: 18rem;
+        font-size: 2.5rem;
+        letter-spacing: 4.75px;
+        font-weight: 100;
+    }
+
+    .crewcontent_page_left__title__number {
+        margin-right: 1rem;
+        color: #5a5f62;
+    }
+}
+
+
+
+@media only screen and (max-width:1340px) and (min-width:550px) {
+
+    .crew_container {
+        background-image: url("../../public/crew/background-crew-tablet.jpg");
+        background-size: 100% 100vh;
+        background-attachment: fixed;
+        min-height: 100vh;
+        height: 100rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .crewcontent_page_left__title {
+        position: absolute;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: white;
+        margin-top: 17rem;
+        margin-left: 4rem;
+        font-size: 2.5rem;
+        letter-spacing: 4.75px;
+        font-weight: 100;
+    }
+
+    .crewcontent_page_left__title__number {
+        margin-right: 1rem;
+        color: #5a5f62;
+    }
+}
+
+
+@media only screen and (max-width:550px) {
+
+    .crew_container {
+        background-image: url("../../public/crew/background-crew-tablet.jpg");
+        background-size: 100% 100vh;
+        background-attachment: fixed;
+        min-height: 100vh;
+        height: 126rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .crewcontent_page_left__title {
+        position: absolute;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: white;
+        margin-top: 17rem;
+        font-size: 2.5rem;
+        letter-spacing: 4.75px;
+        font-weight: 100;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: fit-content;
+    }
+
+    .crewcontent_page_left__title__number {
+        margin-right: 1rem;
+        color: #5a5f62;
+    }
+}

@@ -1,0 +1,242 @@
+@media only screen and (min-width: 1340px) {
+
+    .homepage_container {
+        background-image: url("../../public/home/background-home-desktop.jpg");
+        background-size: 100% 100vh;
+        background-attachment: fixed;
+        min-height: 100vh;
+        height: 70rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        font-size: 7px;
+    }
+
+    .homepage_left {
+        position: relative;
+        top: 24rem;
+        width: fit-content;
+        left: 21.8rem;
+    }
+
+    .homepage_left__title1 {
+        font-size: 15.0rem;
+        font-family: 'Bellefair', serif;
+        color: white;
+        font-weight: 100;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .homepage_left__title2 {
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 2.8rem;
+        font-weight: 100;
+        color: #D0D6F9;
+        letter-spacing: 4.75px;
+    }
+
+    .homepage_left__description {
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #D0D6F9;
+        font-size: 2.1rem;
+        font-weight: 400;
+        width: 44rem;
+        line-height: 30px;
+    }
+
+    .homepage_right__button {
+        width: 24rem;
+        height: 24rem;
+        position: absolute;
+        right: 13%;
+        top: 31rem;
+        border-radius: 139px;
+        background-color: white;
+        font-family: 'Bellefair', serif;
+        font-size: 2.6rem;
+        text-transform: uppercase;
+        border: 0px solid transparent;
+        cursor: pointer;
+        color: black;
+        text-align: center;
+        line-height: 24rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .homepage_right__button_animation {
+        width: 24rem;
+        height: 24rem;
+        position: absolute;
+        right: 13%;
+        top: 31rem;
+        background-color: white;
+        border-radius: 139px;
+        opacity: 0.5;
+    }
+}
+
+
+@media only screen and (max-width:1340px) and (min-width:550px) {
+
+    .homepage_container {
+        background-image: url("../../public/home/background-home-tablet.jpg");
+        background-size: 100% 100vh;
+        min-height: 100vh;
+        height: 100rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .homepage_left {
+        position: relative;
+        top: 24rem;
+    }
+  
+    .homepage_left__title1 {
+        text-align: center;
+        font-size: 16.0rem;
+        font-family: 'Bellefair', serif;
+        color: white;
+        font-weight: 100;
+        margin-top: 2rem;
+    }
+
+    .homepage_left__title2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 2.0rem;
+        font-weight: 100;
+        color: #D0D6F9;
+        letter-spacing: 4px;
+    }
+
+    .homepage_left__description {
+        text-align: center;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #D0D6F9;
+        font-size: 2.1rem;
+        font-weight: 400;
+        width: 44rem;
+        line-height: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .homepage_right__button {
+        width: 24rem;
+        height: 24rem;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 70rem;
+        border-radius: 139px;
+        background-color: white;
+        font-family: 'Bellefair', serif;
+        font-size: 2.6rem;
+        text-transform: uppercase;
+        border: 0px solid transparent;
+        cursor: pointer;
+        color: black;
+        text-align: center;
+        line-height: 24rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .homepage_right__button_animation {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+
+    .homepage_container {
+        background-image: url("../../public/home/background-home-mobile.jpg");
+        background-size: 100% 100vh;
+        min-height: 100vh;
+        height: 126rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .homepage_left {
+        position: relative;
+        top: 24rem;
+    }
+
+    .homepage_left__title1 {
+        text-align: center;
+        font-size: 16.0rem;
+        font-family: 'Bellefair', serif;
+        color: white;
+        font-weight: 100;
+        margin-top: 2rem;
+    }
+
+    .homepage_left__title2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 3.0rem;
+        font-weight: 100;
+        color: #D0D6F9;
+        letter-spacing: 4px;
+    }
+
+    .homepage_left__description {
+        text-align: center;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #D0D6F9;
+        font-size: 3rem;
+        font-weight: 400;
+        width: 52rem;
+        line-height: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+
+    .homepage_right__button {
+        width: 24rem;
+        height: 24rem;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 80rem;
+        border-radius: 139px;
+        background-color: white;
+        font-family: 'Bellefair', serif;
+        font-size: 2.6rem;
+        text-transform: uppercase;
+        border: 0px solid transparent;
+        cursor: pointer;
+        color: black;
+        text-align: center;
+        line-height: 24rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+
+    .homepage_right__button_animation {
+        display: none;
+    }
+}

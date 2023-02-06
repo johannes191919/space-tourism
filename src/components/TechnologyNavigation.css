@@ -1,0 +1,156 @@
+@media only screen and (min-width: 950px) {
+
+    .technology_navigation_list {
+        position: absolute;
+        top: 32rem;
+        left: 22rem;
+    }
+
+    .technology_navigation_list__listitem__button {
+        font-family: 'Bellefair', serif;
+        color: white;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50px;
+        background-color: transparent;
+        font-size: 2.8rem;
+        cursor: pointer;
+        border: 1px solid #5a5f62;
+        transition: border-color 0.5s, color 0.5s;
+        margin-bottom: 3rem;
+    }
+
+    .technology_navigation_list__listitem__button:hover {
+        border-color: white;
+    }
+
+    .technology_navigation_list__listitem__button--active {
+        font-family: 'Bellefair', serif;
+        color: black;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50px;
+        background-color: white;
+        font-size: 2.8rem;
+        cursor: pointer;
+        border: 1px solid #5a5f62;
+        transition: background-color 0.5s, color 0.5s;
+        margin-bottom: 3rem;
+    }
+}
+
+
+@media only screen and (max-width:950px) and (min-width:550px) {
+
+    .technology_navigation_list {
+        position: absolute;
+        top: 57rem;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .technology_navigation_list__listitem {
+
+        display: inline-block;
+        margin-left: 3rem;
+    }
+
+
+    #technology_navigation_list__listitem_1 {
+
+        margin-left: 0;
+    }
+
+    .technology_navigation_list__listitem__button {
+        font-family: 'Bellefair', serif;
+        color: white;
+        width: 7rem;
+        height: 7rem;
+        border-radius: 50px;
+        background-color: transparent;
+        font-size: 2.8rem;
+        cursor: pointer;
+        border: 1px solid #5a5f62;
+        transition: background-color 0.5s, color 0.5s;
+        margin-bottom: 3rem;
+    }
+
+    .technology_navigation_list__listitem__button:hover {
+        border-color: white;
+    }
+
+    .technology_navigation_list__listitem__button--active {
+        font-family: 'Bellefair', serif;
+        color: black;
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50px;
+        background-color: white;
+        font-size: 2.8rem;
+        cursor: pointer;
+        border: 1px solid #5a5f62;
+        transition: background-color 0.5s, color 0.5s;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width:550px) {
+
+    .technology_navigation_list {
+        position: absolute;
+        top: 57rem;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .technology_navigation_list__listitem {
+
+        display: inline-block;
+        margin-left: 3rem;
+    }
+
+
+    #technology_navigation_list__listitem_1 {
+
+        margin-left: 0;
+    }
+
+    .technology_navigation_list__listitem__button {
+        font-family: 'Bellefair', serif;
+        color: white;
+        width: 7rem;
+        height: 7rem;
+        border-radius: 50px;
+        background-color: transparent;
+        font-size: 2.8rem;
+        cursor: pointer;
+        border: 1px solid #5a5f62;
+        transition: background-color 0.5s, color 0.5s;
+        margin-bottom: 3rem;
+    }
+
+    .technology_navigation_list__listitem__button:hover {
+        border-color: white;
+    }
+
+    .technology_navigation_list__listitem__button--active {
+        font-family: 'Bellefair', serif;
+        color: black;
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50px;
+        background-color: white;
+        font-size: 2.8rem;
+        cursor: pointer;
+        border: 1px solid #5a5f62;
+        transition: background-color 0.5s, color 0.5s;
+        margin-bottom: 3rem;
+    }
+
+}

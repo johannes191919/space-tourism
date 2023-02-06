@@ -1,0 +1,188 @@
+ @media only screen and (min-width: 1340px) {
+
+
+   .swiper {
+     width: 100%;
+     height: 72rem;
+   }
+
+   .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: transparent;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .swiper-slide img {
+     display: block;
+     width: 40rem;
+     left: -11rem;
+     height: 53rem;
+     position: absolute;
+     top: -8.5rem;
+   }
+
+   .swiper-horizontal>.swiper-pagination-bullets,
+   .swiper-pagination-bullets.swiper-pagination-horizontal,
+   .swiper-pagination-custom,
+   .swiper-pagination-fraction {
+     bottom: var(--swiper-pagination-bottom, 8px);
+     top: var(--swiper-pagination-top, auto);
+     left: 13rem;
+     position: absolute;
+     width: 10%;
+     top: 66rem;
+     display: flex;
+     justify-content: space-evenly;
+   }
+
+   .swiper-pagination-bullet {
+     top: 0;
+     width: 15px;
+     height: 15px;
+     text-align: center;
+     line-height: 20px;
+     font-size: 12px;
+     color: transparent;
+     opacity: 1;
+     background-color: #5a5f62;
+     transform: translate(70%, -50%);
+   }
+
+   .swiper-pagination-bullet-active {
+     color: transparent;
+     background-color: #fff;
+   }
+ }
+
+ @media only screen and (max-width:1340px) and (min-width:550px) {
+
+   .swiper {
+     width: 100%;
+     height: 100rem;
+   }
+
+   .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: transparent;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .swiper-slide img {
+     display: block;
+     width: 28rem;
+     height: 43rem;
+     position: absolute;
+     top: 57rem;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 0;
+   }
+
+   .swiper-horizontal>.swiper-pagination-bullets,
+   .swiper-pagination-bullets.swiper-pagination-horizontal,
+   .swiper-pagination-custom,
+   .swiper-pagination-fraction {
+     position: absolute;
+     margin-left: auto;
+     margin-right: auto;
+     width: 49rem;
+     left: 0;
+     right: 0;
+     bottom: 47rem;
+   }
+
+   .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+   .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+     margin: 2rem;
+   }
+
+   .swiper-pagination-bullet {
+     top: 0;
+     width: 10px;
+     height: 10px;
+     text-align: center;
+     line-height: 20px;
+     font-size: 12px;
+     color: transparent;
+     opacity: 1;
+     background-color: #5a5f62;
+     transform: translate(70%, -50%);
+   }
+
+   .swiper-pagination-bullet-active {
+     color: transparent;
+     background-color: #fff;
+   }
+ }
+
+ @media only screen and (max-width:550px) {
+
+   .swiper {
+     width: 100%;
+     height: 120rem;
+   }
+
+   .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: transparent;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .swiper-slide img {
+     display: block;
+     width: 28rem;
+     height: 43rem;
+     position: absolute;
+     top: 27rem;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 0;
+   }
+
+   .swiper-horizontal>.swiper-pagination-bullets,
+   .swiper-pagination-bullets.swiper-pagination-horizontal,
+   .swiper-pagination-custom,
+   .swiper-pagination-fraction {
+     position: absolute;
+     margin-left: auto;
+     margin-right: auto;
+     width: 49rem;
+     left: 0;
+     right: 0;
+     bottom: 41rem;
+   }
+
+   .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+   .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+     margin: 2rem;
+   }
+
+   .swiper-pagination-bullet {
+     top: 0;
+     width: 10px;
+     height: 10px;
+     text-align: center;
+     line-height: 20px;
+     font-size: 12px;
+     color: transparent;
+     opacity: 1;
+     background-color: #5a5f62;
+     transform: translate(70%, -50%);
+   }
+
+   .swiper-pagination-bullet-active {
+     color: transparent;
+     background-color: #fff;
+   }
+ }

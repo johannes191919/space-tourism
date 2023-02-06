@@ -1,0 +1,95 @@
+@media only screen and (min-width: 1340px) {
+
+    .technology_content_container {
+        background-image: url("../../public/technology/background-technology-desktop.jpg");
+        background-size: 100% 100vh;
+        background-attachment: fixed;
+        min-height: 100vh;
+        height: 70rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .technology_content_page_left__title {
+        position: absolute;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: white;
+        margin-top: 17rem;
+        margin-left: 21rem;
+        font-size: 2.5rem;
+        letter-spacing: 4.75px;
+        font-weight: 100;
+    }
+
+    .technology_content_page_left__title__number {
+        margin-right: 1rem;
+        color: #5a5f62;
+    }
+}
+
+
+@media only screen and (max-width:1340px) and (min-width:550px) {
+    .technology_content_container {
+        background-image: url("../../public/technology/background-technology-tablet.jpg");
+        background-size: 100% 100vh;
+        background-attachment: fixed;
+        min-height: 100vh;
+        height: 100rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .technology_content_page_left__title {
+        position: absolute;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: white;
+        margin-top: 17rem;
+        margin-left: 4rem;
+        font-size: 2.5rem;
+        letter-spacing: 4.75px;
+        font-weight: 100;
+    }
+
+    .technology_content_page_left__title__number {
+        margin-right: 1rem;
+        color: #5a5f62;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .technology_content_container {
+        background-image: url("../../public/technology/background-technology-mobile.jpg");
+        background-size: 100% 100vh;
+        background-attachment: fixed;
+        min-height: 100vh;
+        height: 126rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .technology_content_page_left__title {
+        position: absolute;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: white;
+        margin-top: 17rem;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: fit-content;
+        font-size: 2.5rem;
+        letter-spacing: 4.75px;
+        font-weight: 100;
+    }
+
+    .technology_content_page_left__title__number {
+        margin-right: 1rem;
+        color: #5a5f62;
+    }
+}

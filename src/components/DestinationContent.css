@@ -1,0 +1,42 @@
+@media only screen and (min-width: 1340px) {
+
+  .destination_container {
+    background-image: url("../../public/destination/background-destination-desktop.jpg");
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+    min-height: 100vh;
+    height: 70rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+@media only screen and (max-width:1340px) and (min-width:550px) {
+
+  .destination_container {
+    background-image: url("../../public/destination/background-destination-tablet.jpg");
+    background-size: 100% 100vh;
+    min-height: 100vh;
+    height: 100rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+@media only screen and (max-width:550px) {
+
+  .destination_container {
+    background-image: url("../../public/destination/background-destination-mobile.jpg");
+    background-size: 100% 100vh;
+    min-height: 100vh;
+    height: 126rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}

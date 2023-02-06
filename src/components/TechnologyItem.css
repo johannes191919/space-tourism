@@ -1,0 +1,203 @@
+@media only screen and (min-width: 950px) {
+
+    .technology_item__container--active {
+        width: 71%;
+        height: 26rem;
+        right: 0;
+        top: 36rem;
+        display: block;
+        position: absolute;
+    }
+
+
+    .technology_item__container {
+        display: none;
+    }
+
+    .technology_item__left {
+        position: absolute;
+        left: -8rem;
+        top: -4rem;
+    }
+
+
+    .technology_item__left__terminology_title {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.4rem;
+        letter-spacing: 2.7px;
+        color: #D0D6F9;
+        margin-bottom: 2rem;
+    }
+
+    .technology_item__left__name {
+        margin-bottom: 1rem;
+        font-size: 5.2rem;
+        text-transform: uppercase;
+        font-family: 'Bellefair', serif;
+        color: white;
+        text-align: left;
+    }
+
+    .technology_item__left__description {
+        text-align: left;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #D0D6F9;
+        font-size: 1.9rem;
+        font-weight: 400;
+        width: 37.1rem;
+        line-height: 30px;
+    }
+
+    .technology_item__right__pic {
+        display: block;
+        width: 42rem;
+        height: 45rem;
+        position: absolute;
+        bottom: -3rem;
+        right: 5rem;
+
+
+    }
+
+    .technology_item__right__pic--mobile {
+        display: none;
+        width: 42rem;
+        height: 45rem;
+        position: absolute;
+        top: -6rem;
+    }
+}
+
+
+@media only screen and (max-width:950px) and (min-width:550px) {
+
+    .technology_item__container--active {
+        width: 71%;
+        height: 26rem;
+        right: 0;
+        top: 49.2%;
+        display: block;
+    }
+
+
+    .technology_item__container {
+        display: none;
+    }
+
+    .technology_item__left {
+        position: absolute;
+        margin-left: auto;
+        width: 55rem;
+        margin-right: auto;
+        top: 70rem;
+        left: 0;
+        right: 0;
+    }
+
+
+    .technology_item__left__terminology_title {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.9rem;
+        letter-spacing: 2.7px;
+        color: #D0D6F9;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .technology_item__left__name {
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 4.3rem;
+        text-transform: uppercase;
+        font-family: 'Bellefair', serif;
+        color: white;
+    }
+
+    .technology_item__left__description {
+        text-align: center;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #D0D6F9;
+        font-size: 1.9rem;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .technology_item__right__pic {
+        display: none;
+    }
+
+    .technology_item__right__pic--mobile {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 25rem;
+        height: 30rem;
+    }
+}
+
+
+@media only screen and (max-width:550px) {
+
+    .technology_item__container--active {
+        width: 71%;
+        height: 26rem;
+        right: 0;
+        top: 49.2%;
+        display: block;
+    }
+
+
+    .technology_item__container {
+        display: none;
+    }
+
+    .technology_item__left {
+        position: absolute;
+        margin-left: auto;
+        width: 55rem;
+        margin-right: auto;
+        top: 70rem;
+        left: 0;
+        right: 0;
+    }
+
+
+    .technology_item__left__terminology_title {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.9rem;
+        letter-spacing: 2.7px;
+        color: #D0D6F9;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .technology_item__left__name {
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 4.3rem;
+        text-transform: uppercase;
+        font-family: 'Bellefair', serif;
+        color: white;
+    }
+
+    .technology_item__left__description {
+        text-align: center;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #D0D6F9;
+        font-size: 2.9rem;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .technology_item__right__pic {
+        display: none;
+    }
+
+    .technology_item__right__pic--mobile {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 25rem;
+        height: 30rem;
+    }
+}
